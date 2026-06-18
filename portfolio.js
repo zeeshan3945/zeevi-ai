@@ -20,17 +20,6 @@ const PORTFOLIO = [
     accent: "#6366f1",
   },
   {
-    title: "Chilean Needle Grass Identification",
-    client: "Precision Agriculture · Australia",
-    category: "Image Segmentation",
-    summary:
-      "AI segmentation system that detects an invasive weed among visually similar grasses (the “green-on-green” problem) from high-resolution drone orthomosaics.",
-    tags: ["Segmentation", "Drone Imagery", "Agriculture"],
-    cover: "assets/covers/chilean-needle-grass.jpg",
-    file: "portfolio/chilean-needle-grass.pdf",
-    accent: "#10b981",
-  },
-  {
     title: "PGC Agricultural Annotations",
     client: "Precision Agriculture",
     category: "Detection + Segmentation",
@@ -51,16 +40,5 @@ const PORTFOLIO = [
     cover: "assets/covers/kitchen-annotations.jpg",
     file: "portfolio/kitchen-annotations.pdf",
     accent: "#ec4899",
-  },
-  {
-    title: "Tomato Stand Count",
-    client: "Precision Agriculture",
-    category: "Object Detection",
-    summary:
-      "Object-detection pipeline that counts tomato plants from field imagery, turning raw captures into accurate, field-level stand-count statistics.",
-    tags: ["Object Detection", "Counting", "Agriculture"],
-    cover: "assets/covers/tomato-stand-count.jpg",
-    file: "portfolio/tomato-stand-count.pdf",
-    accent: "#ef4444",
   },
 ];
