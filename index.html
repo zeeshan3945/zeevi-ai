@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZeeVi.ai — Data Annotation & Computer Vision Solutions</title>
+  <meta name="description" content="ZeeVi.ai delivers high-quality data annotation — image segmentation, object detection, and VLA video annotation — plus end-to-end AI & computer vision solutions." />
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Animated background -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <img src="assets/logo.svg" alt="ZeeVi.ai logo" class="brand-logo" />
+        <span class="brand-text">ZeeVi<span class="dot">.ai</span></span>
+      </a>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Get in touch</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-badge">
+        <span class="pulse"></span> 170+ projects delivered · 5.0★ client rating
+      </div>
+      <h1 class="hero-title">
+        High-quality <span class="grad">data annotation</span> &amp;
+        <span class="grad">computer vision</span> solutions
+      </h1>
+      <p class="hero-sub">
+        ZeeVi.ai builds the training data and AI systems behind modern vision products —
+        from pixel-perfect image segmentation and object detection to end-to-end
+        computer vision solutions for agriculture, industrial and robotics teams.
+      </p>
+      <div class="hero-cta">
+        <a href="#portfolio" class="btn btn-primary">View our work</a>
+        <a href="#contact" class="btn btn-ghost">Start a project →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>170+</strong><span>Projects delivered</span></div>
+        <div class="stat"><strong>75+</strong><span>Annotation classes</span></div>
+        <div class="stat"><strong>5.0★</strong><span>Client rating</span></div>
+        <div class="stat"><strong>End-to-end</strong><span>Data → Model → Deploy</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">What we do</span>
+        <h2>Services built around your vision pipeline</h2>
+        <p>From raw imagery to deployed models — we cover the full stack of computer vision data and AI.</p>
+      </div>
+      <div class="grid services">
+        <article class="card service">
+          <div class="svc-icon" style="--c:#6366f1">▦</div>
+          <h3>Image Segmentation</h3>
+          <p>Pixel-perfect mask & polygon annotation for detailed scene understanding — agriculture, industrial drawings, medical and more.</p>
+        </article>
+        <article class="card service">
+          <div class="svc-icon" style="--c:#10b981">⬚</div>
+          <h3>Object Detection</h3>
+          <p>Bounding-box and keypoint labeling at scale, with QA workflows that keep your datasets clean and consistent.</p>
+        </article>
+        <article class="card service">
+          <span class="svc-badge">Coming soon</span>
+          <div class="svc-icon" style="--c:#ec4899">▶</div>
+          <h3>Video Annotation for VLA</h3>
+          <p>Temporal action segmentation and structured natural-language descriptions to power Vision-Language-Action and robotics models. Now in development.</p>
+        </article>
+        <article class="card service">
+          <div class="svc-icon" style="--c:#f59e0b">◆</div>
+          <h3>AI / Computer Vision Solutions</h3>
+          <p>End-to-end systems: model training, MLOps pipelines, cloud deployment and monitoring — production-ready from day one.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="section section-alt" id="portfolio">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Selected work</span>
+        <h2>Our Work</h2>
+        <p>Real annotation & computer-vision projects we've delivered. Click any card to open the full document.</p>
+      </div>
+      <div class="grid portfolio" id="portfolioGrid"><!-- injected by JS --></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container about">
+      <div class="about-text">
+        <span class="eyebrow">About us</span>
+        <h2>The team behind your training data</h2>
+        <p>
+          ZeeVi.ai is a computer-vision data and AI studio. We help agriculture, industrial
+          and robotics teams turn raw imagery into production-ready datasets and models —
+          covering image segmentation, object detection and full AI/CV solution delivery.
+        </p>
+        <p>
+          We've delivered 170+ projects and large-scale annotation programs for clients
+          including The Land Institute and FutureCalc.ai, with a relentless focus on
+          annotation quality, consistency and turnaround.
+        </p>
+        <ul class="skills">
+          <li>PyTorch · TensorFlow · ONNX</li>
+          <li>MMDetection · MMSegmentation</li>
+          <li>CVAT · Roboflow · ClearML</li>
+          <li>AWS · GCP · Docker · FastAPI</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Work with us</a>
+      </div>
+      <div class="about-card">
+        <span class="ac-tag">Founder</span>
+        <div class="ac-avatar">ZK</div>
+        <div class="ac-name">Zeeshan Khan</div>
+        <div class="ac-role">ML Engineer · Computer Vision · MLOps</div>
+        <p class="ac-bio">
+          Machine Learning Engineer specializing in computer vision, video understanding
+          and production-scale MLOps — leading ZeeVi.ai's delivery.
+        </p>
+        <div class="ac-links">
+          <a href="https://github.com/zeeshan3945" target="_blank" rel="noopener" class="ac-link">GitHub ↗</a>
+          <a href="assets/Zeeshan-Khan-CV.pdf" target="_blank" rel="noopener" class="ac-link">CV ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="container contact">
+      <div class="section-head">
+        <span class="eyebrow">Let's talk</span>
+        <h2>Have a dataset or a vision problem?</h2>
+        <p>Tell us about your project — we'll get back to you with a plan.</p>
+      </div>
+      <div class="contact-actions">
+        <a href="mailto:zeeshancs3945@gmail.com" class="contact-pill">✉️ zeeshancs3945@gmail.com</a>
+        <a href="https://wa.me/923429213693" target="_blank" rel="noopener" class="contact-pill">💬 WhatsApp +92 342 9213693</a>
+        <a href="https://github.com/zeeshan3945" target="_blank" rel="noopener" class="contact-pill">🐙 GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="brand"><img src="assets/logo.svg" alt="" class="brand-logo sm" /> ZeeVi<span class="dot">.ai</span></span>
+      <span class="footer-note">© <span id="year"></span> ZeeVi.ai — Data Annotation & Computer Vision</span>
+    </div>
+  </footer>
+
+  <script src="portfolio.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

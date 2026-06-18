@@ -1,0 +1,13 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="zv" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="40" height="40" rx="11" fill="url(#zv)"/>
+  <!-- Stylised Z formed like a scan / annotation frame -->
+  <path d="M12 13h16l-12 14h12" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- corner ticks (bounding-box / vision motif) -->
+  <path d="M11 11.5h2.4M11 11.5v2.4M29 28.5h-2.4M29 28.5v-2.4" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity="0.8"/>
+</svg>

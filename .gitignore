@@ -1,0 +1,7 @@
+# Heavy original PDFs kept locally as backup — not needed on the live site
+portfolio/_originals/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
